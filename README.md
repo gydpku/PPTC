@@ -1,10 +1,16 @@
 # PPTC
+Power-Point Task Completion (PPTC) is a benchmark that measures LLMs' task completion performance for PowerPoint software. The benchmark focuses on two basic tasks
+within PowerPoint: the creation of new slides and the editing of PPT templates. It simulates the multi-turn dialogue session between the user and the LLM. Each turn consists of a user instruction, a feasible solution that provides the correct solution, and the resulting label output file. To finish the instruction, we use the current instruction, past turns’ instructions (dialogue history), the PPT file content, and the reference API file as the input and prompt the LLM to generate an API sequence as the solution. Then we use the API executor to execute the API sequence and return the user the resulting PPT file (the prediction file) as the LLM’s response.
+
+To evaluate the correctness of the prediction file, we further propose the PPTX-match evaluation system that evaluate the prediction file in two ways: (1) by checking if the objects in
+the prediction file satisfy the label position relation and (2) by comparing the content of attributes in the prediction with those in the corresponding attributes in the label file.resulting PPT file. Based on our evaluation system, our evaluation metrics focus on two key aspects: turn and session. For example, turn-based accuracy is the ratio of successfully completed turns to the total number of turns, while session-based accuracy measures the ratio of completed sessions to the overall session count.
+
 This repository contains information about PPTC benchmark, data, code, and the PPTX-Match evaluation system. 
 
 # Requirements
 Please install these packages first:
 ```
-pip install -r requirements.txt
+pip install -r PPT_code/requirements.txt
 ```
 
 # Registering LLM systems
@@ -42,8 +48,8 @@ You need to execute these codes:
    python3 PPT_code/main.py --prepare --dataset long
    python3 PPT_code/main.py --prepare --dataset short  
    ```
-# Testing your LLMs 
-To test your LLMs in our benchmarl, you can execute this code:
+# Testing your LLM 
+To test your LLM in our benchmark, you can execute this code:
    ```
    bash PPT_code/basic_run/run.sh model_name port_id evaluation_name dataset_name 
    ```
@@ -58,3 +64,10 @@ Setting it as 'sess' if you want to assess your LLM in the session-based evaluat
 
 ```dataset_name```: Setting it as 'short' if you want to assess your LLM in the creating new slides task.
 Setting it as 'long' if you want to assess your LLM in the editing PPT template task.
+
+# Evaluating the task completion performance of your LLM
+After the test inference process, you can run this code to do evaluation:
+```
+python PPT_code/main.py --eval --dataset=dataset_name --evaluation_name --model=model_name
+```
+This process will generate the prediction file by executing the LLM-generated API sequence and assess the prediction file in the PPTX-Match system one by one. Finally, it reports the results of average api cost, average token cost, and average accuracy ('string acc').
