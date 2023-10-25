@@ -5,7 +5,7 @@ within PowerPoint: the creation of new slides and the editing of PPT templates. 
 To evaluate the correctness of the prediction file, we further propose the PPTX-match evaluation system that evaluate the prediction file in two ways: (1) by checking if the objects in
 the prediction file satisfy the label position relation and (2) by comparing the content of attributes in the prediction with those in the corresponding attributes in the label file.resulting PPT file. Based on our evaluation system, our evaluation metrics focus on two key aspects: turn and session. For example, turn-based accuracy is the ratio of successfully completed turns to the total number of turns, while session-based accuracy measures the ratio of completed sessions to the overall session count.
 
-This repository contains information about PPTC benchmark, data, code, and the PPTX-Match evaluation system. 
+This repository contains information about PPTC benchmark, data, code, and the PPTX-Match evaluation system. To evaluate your LLM or LLM-based AI assistant system, you should follow the five main steps below.
 
 # Requirements
 Please install these packages first:
