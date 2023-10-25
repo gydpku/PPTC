@@ -71,3 +71,9 @@ After the test inference process, you can run this code to do evaluation:
 python PPT_code/main.py --eval --dataset=dataset_name --evaluation_name --model=model_name
 ```
 This process will generate the prediction file by executing the LLM-generated API sequence and assess the prediction file in the PPTX-Match system one by one. Finally, it reports the results of average api cost, average token cost, and average accuracy ('string acc').
+
+# The results of 3 closed LLMs and 6 open-source LLMs in our benchmark:
+For these open-source LLMs, we use their chat/instruct version with 13 billion parameters.
+<img width="635" alt="截屏2023-10-25 23 18 59" src="https://github.com/gydpku/PPTC/assets/58905134/c5010986-22ef-4f86-9f42-4eeaabe5d488">
+
+
