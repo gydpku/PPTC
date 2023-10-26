@@ -2,8 +2,7 @@
 Power-Point Task Completion (PPTC) is a benchmark that measures LLMs' task completion performance for PowerPoint software. The benchmark focuses on two basic tasks
 within PowerPoint: the creation of new slides and the editing of PPT templates. It simulates the multi-turn dialogue session between the user and the LLM. Each turn consists of a user instruction, a feasible solution that provides the correct solution, and the resulting label output file. To finish the instruction, we use the current instruction, past turns’ instructions (dialogue history), the PPT file content, and the reference API file as the input and prompt the LLM to generate an API sequence as the solution. Then we use the API executor to execute the API sequence and return the user the resulting PPT file (the prediction file) as the LLM’s response.
 
-To evaluate the correctness of the prediction file, we further propose the PPTX-match evaluation system that evaluate the prediction file in two ways: (1) by checking if the objects in
-the prediction file satisfy the label position relation and (2) by comparing the content of attributes in the prediction with those in the corresponding attributes in the label file.resulting PPT file. Based on our evaluation system, our evaluation metrics focus on two key aspects: turn and session. For example, turn-based accuracy is the ratio of successfully completed turns to the total number of turns, while session-based accuracy measures the ratio of completed sessions to the overall session count.
+To evaluate the correctness of the prediction file, we further propose the PPTX-match evaluation system that evaluate the prediction file in two ways: (1) by checking if the objects in the prediction file satisfy the label position relation and (2) by comparing the content of attributes in the prediction with those in the corresponding attributes in the label file.resulting PPT file. Based on our evaluation system, our evaluation metrics focus on two key aspects: turn and session. For example, turn-based accuracy is the ratio of successfully completed turns to the total number of turns, while session-based accuracy measures the ratio of completed sessions to the overall session count.
 
 This repository contains information about PPTC benchmark, data, code, and the PPTX-Match evaluation system. To evaluate your LLM or LLM-based AI assistant system, you should follow the five main steps below.
 
@@ -18,7 +17,7 @@ pip install -r PPT_code/requirements.txt
 For closed-source LLMs (text-davinci-003, ChatGPT (gpt-3.5-turbo), and GPT-4) and other LLMs that you only have the API access. You first need to fill your API access by following the steps below:
 
 1. open the file src/openai_api.py
-2. fill your openai key in line 27~31.
+2. fill your openai key in line 27~28.
 
 For open-source LLMs (e.g., Llama-2-chat, vicuna and other LLMs at huggingface) and other LLMs that you have the model. We recommend serving your models through the fastchat server. You can follow the steps below. More details are in https://github.com/lm-sys/FastChat. 
 
