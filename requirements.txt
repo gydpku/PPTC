@@ -1,0 +1,11 @@
+openai
+backoff
+pandas
+python-pptx == 0.6.21
+matplotlib
+plotly
+scipy
+scikit-learn
+sacremoses
+mosestokenizer
+jsonlines
