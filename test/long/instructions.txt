@@ -1,0 +1,209 @@
+Hello, can you make the color of the title of slides 1,3,6,7,10,13 and 15 to be black? 
+And set the background of the first three slides as white.
+Rotate the first image on slide 3 with 75 degree. Change the width of the first two images on slide 4 with real people to 8.
+Rotate the first image with real people with 60 degree. 
+
+Can you change the title of slide 6,7,8 to ‘Marine Pollution’? Then set the width of the images in slide 9 to 12.
+Make the font size of the first two textboxes in slide 15 to 5 and set the font color to ‘red’.
+OK, then move to the slide 9 and set the font color of all textboxes as yellow.
+move to the slide that has an earth picture and set the font color of all textboxes as red. 
+
+Please find the first three slides that have my personal image and outline the title of the slide 0 and slide 2. 
+OK, set the background color of the first three slides to blue and change the title of the slide 11 to ‘Rising star’.
+Also give a title for the 11-th slide. Emm, I think ‘More details’ is a good choice. Set the title bold.
+
+Underline the title of the "Our Company" slide and set the font size as 10.
+Bold the title of the slide that has pineapples picture and set the font size as 12. 
+OK, then please delete the original title of slides 8 and 16. Add the new title ‘Company for Human Future’ and ‘Company Profit’ for slides 8 and 16 respectively.
+Then replace the title of slides 9, 10 with ‘History of Our Company’. 
+
+Please add note ‘May have a privacy concern’ for all slides that have a real person picture. 
+Set the color of titles in slides 2,1,4,6, and 7 as black and underline them. 
+Move to the slide about the team members and change the title as ‘Members and Friends’.
+
+Set the title of the slide 2 as ’10 Important Tips for Your Early Career’ and underline it. Also, set the font size as 15.
+Move to the slide that has a table and make a note “This is a table that record the average income every year for a bachelor.”
+Finally, set the background color of slides 2,4, 6 and 13 as white. 
+
+Make the title of slide 2 into ‘Sea Sports’ and underline it. Also, change the title of slide 7 into ‘Four Important Steps for Playing Skateboard’.
+Change the title of slide of 'Our Services' as ‘Free Course for Your Child’.
+Change the title of slide that has children and coach picture as ‘Free Courses’. 
+Finally, set the font size of title in the last slide as 10 and bold.
+
+Make the title of slide 2 as ‘Important Factors for Designing’. Then Add a note for my image in slide 1 as ‘Lily’.
+Set the height of the computer picture in slide 3 as 10 and set the title of this slide as ‘Relevant Information from the Internet’.
+Move to the slide that has two tables and set the title as ‘New tendency from 2022 to 2023’.
+
+Make the title of slide 2 as ‘Musical Instrument’ and set its font size as 12.
+Move to the slide that introduces who we are and what we do, add a note in this slide ‘We are hiring!’
+Set the title color of slides 18,19,5,6 and 2 as purple and underline them.
+
+Set the height of pictures of slide 1 as 5 and set the title of this slide as ‘The Art of Young’. Underline it.
+Move to the slide that has a picture of three boys. Make the title as ‘The Playboys’ and bold it.
+Rotate the images in slide 6 to 45 degree. Make the title: ‘Asian Fashion’ and center align it.
+
+Change the title of slide 6 as ‘Our users in the world’ and bold it. And add a new title for slide 9 as ‘Our Company Profit’.
+Make a note for the slide that title is ‘Infographic Slide Report’ as ‘I need to update the datapoints in the picture’.
+Set the background of the first five slides and the last slide as blue and red respectively.
+
+Set the title of slide 2 as ‘Buy and Sell BLOCKCHAIN in Three Steps’ and underline it. Also, rotate the first image in slide 2,3, and 4 to 15, 30, and 45 degrees respectively.  
+Underline all fonts as well as bold them in slide 5 and make a title for the last slide as ‘Revenues and Expenses’.
+Set the background color of slide 0,2,3,6 as yellow.
+
+The slide id is the positive solution of equation X^2-25=0. Make the title of this slide as ‘Travel with Mom’ an underline it.
+Set the height of all pictures in slide 9 as 14 and set the background color as red.
+Set the title of the next slide as ‘Play Game with Mom’.
+
+Set the background color of slides with a real person picture as yellow and set the title of slide 1 as ‘Let’s start’. 
+Except the first textbox, delete all text content of slide 1.
+Set the background color of all slides that has a title: How to play?’ as white. And underline the title.
+
+Please re-set the width of the image that has three kids as 12 and add a note into this slide: Hello Kids!’ 
+Ok, then make the image with a child left-aligned on slide 10. And then rotate it to 15 degrees. ## 10, picture 0, slide, left
+Make the title color blue for slides 3, 8,10, and 21.
+
+Make the title of the first three slides as ‘The Art of Flower Arrangement’, ‘A Poem of Flower’, and ‘Three Important Steps for Flower Arrangement’ respectively. Underline these titles.
+Move to the slide that has a cotton picture. and Set the title as ‘Not Just Crops’. Also, set the height of the first picture as 10.  
+Make the first textbox of slides 14 and 24 top-aligned in slide. Also, rotate all images in slide 14 by 12 degrees. ## 14, textbox 0, slide, top ## 24, textbox 0, slide, top
+
+Add a title for slide 13: ‘Which animal has the longest life?’ and set the font color as yellow.
+Set the font size of all fonts in slide 1 as 8 and re-write the title as ‘What would you see’.
+Move to slide 21 and delete all personal information as the reason of outdated.
+
+Set the title of slide 5 as ‘Global Warming!’ and underline the title. Make the textboxes in slide 3 left aligned.
+Move to the slide 14 and edit the title as ‘Current Team Members’.
+Make the background color of slides with ice and sea picture blue. 
+
+Make the background color of slides whose topic is Jurassic Park yellow and set the title of slide which has an owl picture as ‘Which movie do you recall when you see the following pictures?’ and bold the title.
+The slide-id is the root of equation x^2+2x-3=0. Set the title of this slide as: ’Welcome to Our Movie Festival!’. 
+Except the first textbox, delete all font in the slides about team members.
+
+Set the title of slide 5 and 14 as ‘Three keys for identifying if falling in love’ and ‘What can you and your lover do together’ respectively and underline the title.
+Move to the slide about contact information and add a note ‘Our address is: xxx.’
+Set the background color of slides 2,3,4,5,6,7, 13 and 14 as blue.
+
+Rotate the title of slide 3 to 90 degrees and set the title of slide 8 as ‘Chips’.
+Move to slide 14 and fill the second column with ‘Income Statement’, 1450’,’1567’,1456’, and ‘8900’.
+Then fill elements in the first row and column 2 and 3 with 'Cost’ and ‘Revenue’.
+
+Set the font color of the title in slides 1 to 3 as black and bold the title. Also, delete the personal information in slide 22.
+Move to the slide 19 and Insert the sentence: ‘Our company built in 2012’ into the second textbox.
+Move to slide 11 and make the height of the image smaller. Emm, for example, make the height of the picture as 10.
+
+Set the title of slide 18 and 23 as ‘Colorful World’ and ‘Welcome to Our Group’ respectively. Underline the title and set the font size of the first title as 19.
+Move to the slide with a table (slide 12) and edit the number in the second row and the last column as 17. Also, reset the number value in the last column as zero.
+Move to the slide 11 and rewrite the title as ‘Big Picture of Our Company’. 
+
+Make the titles in slides 5,9,10,11, and 15 top-aligned. ## 5, textbox 0, slide, top ## 9, textbox 0, slide, top ## 10, textbox 0, slide, top ## 11, textbox 0, slide, top ## 15, textbox 0, slide, top
+Ok, then re-write the title in slide 14 as ‘Top Experts in Our Group’.
+Good, move to the slide that has two ice cubes and set the title as ‘Round 2’. 
+
+Re-write the title of slide 4 as ‘Welcome to The Era of AI’ and bold it.
+Move to the members slide and add a new title: ’Our Young Scientist’. Move to slide 16 and edit the title as: Our Newest Product’.
+Move to the slide that introduces our service. Underline the fonts in the textbox.
+
+Fill in today's date with "7.18" in slide 0 and move the picture on slide 0 to the top. ## 0, picture 0, slide, top
+Change the color of the textbox with text '2015','2016','2017','2018','2019' to yellow, green, red, purple, blue, respectively on slide 6.
+bold all the textbox on slide 9, set yellow for background color on slide 7,8, and make the picture of height 3 on slide 0.
+
+Insert a textbox "Hi" on slide 0 with same text align style with other textboxes.
+Insert textbox "Hi" with color green, yellow, red, blue on slide 7,8,9,10 respectively.
+Change the rotation of the first picture on slide 6,7,8,9 to 15,30,45,60.
+
+Color slide 3,4,5 to yellow, green, red. Color slide 6,7 to red, yellow.
+On slide where there is a table, insert a note "here is a table".
+Change the second row of table to |Green|11|20|7|.
+
+Change the Competitive Edge 1,2,3 textbox to “Cheap”,”Quality” and “Effective” respectively on slide 7. Make all the texboxes right aligned on slide 2.
+Move the picture to slide right on slide 2 and Change the font size of all textboxes on slide 4 to 3. ## 2, picture 0, slide, right
+Add a note to all the slide that has tables “there is a table to fill in in this slide.”.
+
+Change “Soona” to “Justin” on slide 4. Move the picture on slide 6 to left. ## 6, picture 0, slide, left
+Change the “Write Your Topic or Idea” textbox on slide 9,10,7 to “Introduction to Winter Sports”. Change the picture height on slide 10 to 7.
+Rotate the first pictures with 45 degree on slide 4,5,6,7.
+
+Change the textbox “In dept” to “Outside dept”.
+Change picture’s height to 2,3,4 on slide 5,6,9 respectively.
+Change the color of backgrounds to yellow on slide 5. Change the picture height to 3 on slide 6. Change the color of backgrounds to red on slide 4.
+Make all the textboxes of font size 4 on slide 4. Make the first textbox of font color yellow.
+
+Fill the "our company" textbox with “Apple” on slide 6. Change the second textbox’s font color to yellow.
+Now Make the Introduction textbox bolded. Make the pictures rotate 45 on slide 6 and 7.
+Bold all the text on slide 4, Underline all the text on slide 5.
+
+Change the background color to green on slide 1,3,5. Change the background color to blue on slide 0,2,4.
+Bold the “ADD AN AGENDA PAGE” text on slide 2 and underline “HELLO THERE” on slide 3.
+Move the “WRITE YOUR TOPIC OR IDEA” textbox to slide left on slide 6. ## 6, textbox 0, slide, left
+Make the all the textboxes font color to yellow on slide 3 and 5.
+
+Change the content of textboxes “Write Agenda” to "Agenda 1", "Agenda 2", "Agenda 3" respectively on slide 2.
+Change the first row of table to "T1","T2","T3","T4" on slide 11.
+Set background yellow on slide 6,7,5. Add note “ready” to slide 3,4.
+
+Make the text underlined on slide 0.
+Set the color of textbox to yellow on slide 0 and the background color of slide 1 to red.
+Make the first picture to slide right on slide 4 and 7. ## 4, picture 0, slide, right ## 7, picture 0, slide, right
+
+Set the background color to red on slide 0. Chang the picture height to 4 on slide 6.
+Make the first picture to slide left in slide 6 and 7. ## 6, picture 0, slide, left ## 7, picture 0, slide, left
+
+Put all the figures to slide right on slide 6 and 7. ## 6, picture 0, slide, left ## 7, picture 0, slide, left
+Bold the first textbox on slide 4. Set the background to red on slide 7. Underline the second textbox on slide 5.
+Delete the personal information on slide 6.
+
+Complete the details of the table on slide 7 with Book Title “The Enigma of Shadows” and Author “Maya Sullivan”.
+Make the first picture rotate 45 on slide 4 and 5. However, the picture on slide 2 should rotate 90 degree.
+I want the text color on page 2 blue while the background color on page 3 yellow.
+
+Change all fonts to green on slide 2 and red on slide 3.
+Make the first textbox right aligned on slide 3, left aligned on slide 7 and center aligned on slide 8.
+The "Write a heading here" textbox should be “Greener is better” on slide 10.
+Change the width, height of the first and second textbox on slide 2 to 3000,3500 and 4000,4500 respectively.
+
+I want the picture on the slide left on slide 0. Make the “Lets get started” green on slide 1. Change font size of first textbox on slide 3 to be 4. ## 0, picture 0, slide, left
+Move the table on slide 9 to slide left. ## 9, table, slide, left
+Bold the text on slide 6. Make all the text of size 2 on slide 0. Underline the text on slide 0. 
+
+Move the textbox to slide top on slide 4,6. Change the color of text to yellow on slide 4. ## 4, textbox 0, slide, top ## 6, textbox 0, slide, top
+Set the rotation 45,60,90 for the picture on slide 0,2,3.
+Change the number to 132,654,897 on slide 8.
+
+The Winter Sales should be in color blue on slide 0.
+Set the background color to red on slide 4,5 and blue on slide 6,7. Move first picture on slide 2 to slide right. ## 2, picture 0, slide, right
+Change all the “Write Your Topic or Idea” to “TODO” on slide 5,6,7.
+Change the first picture height to 2 on slide 0,2,3. Color slide 1,2 to yellow.
+Color the text on slide 6 to red while the slide background should be colored blue on slide 2,3.
+
+Move the first picture on “Introduction” page to right part of the slide. ## 5, picture 0, slide, right
+Make all the textboxes right aligned on slide 9.
+The height of picture should be 2 on slide 6 while the font size of all textboxes should be 10 on slide 11.
+Change the company name textbox on slide 11 to "Google"
+
+Add a note “There is a table” on pages where there is a table.
+Move all the pictures to slide top. Make textboxes underlined on slide 0 and 1. ## 1, picture 0, slide, top
+The Key features should be K1-K6 (filling out the main point textboxes) on slide 3.
+Change “12 million” to “13 million” on slide 5 and make the picture of height 3 on slide 1.
+
+The number should be 00 on slide 3. Note the slide with “its the third slide”.
+Move all textboxes to slide bottom in slide 0 and 1. ## 0, textbox 0, slide, bottom ## 0, textbox 1, slide, bottom ## 1, textbox 0, slide, bottom ## 1, textbox 1, slide, bottom ## 1, textbox 2, slide, bottom ## 1, textbox 3, slide, bottom
+I want the first, second textbox to be yellow, red and the slide background to be green on slide 0.
+
+Make the picture on slide 7 to slide top and the picture on slide 8 to slide bottom. ## 7, picture 0, slide, top ## 8, picture 0, slide, bottom
+Make the first textbox font size 4 while the second 5 on slide 3.
+Make the first three textboxes on slide 0 of color yellow, red, green, respectively.
+
+Color all the textboxes to green on slide 4 and color the backgound with yellow on slide 3.
+Change the “WRITE YOUR TOPIC OR IDEA“ to “BOOKS” on slide 6.
+Change all the font size to 6 on slide 2 and to 7 on slide 4. Move the first picture on slide 4 to slide bottom. ## 4, picture 0, slide, bottom
+
+Color the first slide with yellow and the textboxes should be font color red on slide 0.
+Make the textboxes as well as the picture to slide left on the third slide. ## 3, picture, slide, left ## 3, textbox 0, slide, left ## 3, textbox 1, slide, left ## 3, textbox 2, slide, left ## 3, textbox 3, slide, left ## 3, textbox 4, slide, left ## 3, textbox 5, slide, left ## 3, textbox 6, slide, left ## 3, textbox 7, slide, left ## 3, textbox 8, slide, left ## 3, textbox 9, slide, left ## 3, textbox 10, slide, left ## 3, textbox 11, slide, left ## 3, textbox 12, slide, left
+Insert a rectangle on slide 2. Insert a circle in slide 3.
+
+Color slide 3,4,5 with blue, yellow, red respectively.
+The genre name can be “g1” and “g2” for the table in first column in slide 7. Also, fill the table in slide 7 with “g3” and “g4” in the second column.
+Add a note indicating page number (eg "0" for slide 0) on slide 0-5.
+
+Make the fonts of size 2 on slide 10. Make the fonts red on slide 11. 
+The pictures should be on the left side of the slide on 9 page. ## 9, picture 0, slide, left
+Make background green and font yellow on slide 5.

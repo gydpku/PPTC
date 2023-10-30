@@ -1,0 +1,209 @@
+move_to_slide(1);choose_textbox(0);set_font_color('black');move_to_slide(3);choose_textbox(0);set_font_color('black');move_to_slide(6);choose_textbox(0);set_font_color('black');move_to_slide(7);choose_textbox(0);set_font_color('black');move_to_slide(10);choose_textbox(0);set_font_color('black');move_to_slide(13);choose_textbox(0);set_font_color('black');move_to_slide(15);choose_textbox(0);set_font_color('black');
+move_to_slide(0);set_background_color('white');move_to_slide(1);set_background_color('white');move_to_slide(2);set_background_color('white');
+move_to_slide(3);choose_picture(0);rotate_element(75);set_width(8);move_to_slide(4);choose_picture(0);set_width(8);choose_picture(1);set_width(8);
+move_to_slide(3);choose_picture(0);rotate_element(60);
+
+move_to_slide(6);choose_textbox(0);delete_text();insert_text('Marine Pollution');move_to_slide(7);choose_textbox(0);delete_text();insert_text('Marine Pollution');move_to_slide(8);choose_textbox(0);delete_text();insert_text('Marine Pollution');move_to_slide(9);choose_picture(0);set_width(12);choose_picture(1);set_width(12);choose_picture(2);set_width(12);choose_picture(3);set_width(12);choose_picture(4);set_width(12);choose_picture(5);set_width(12);
+move_to_slide(15);choose_textbox(0);set_font_color('red');set_font_size(5);choose_textbox(1);set_font_color('red');set_font_size(5);
+move_to_slide(9);choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('yellow');choose_textbox(2);set_font_color('yellow');choose_textbox(3);set_font_color('yellow');choose_textbox(4);set_font_color('yellow');choose_textbox(5);set_font_color('yellow');
+move_to_slide(9);choose_textbox(0);set_font_color('red');choose_textbox(1);set_font_color('red');choose_textbox(2);set_font_color('red');choose_textbox(3);set_font_color('red');choose_textbox(4);set_font_color('red');choose_textbox(5);set_font_color('red');
+
+move_to_slide(3);choose_textbox(0);set_font_underline();move_to_slide(5);choose_textbox(0);set_font_underline();
+move_to_slide(0);set_background_color('blue');move_to_slide(1);set_background_color('blue');move_to_slide(2);set_background_color('blue');move_to_slide(11);choose_textbox(0);delete_text();insert_text('Rising star');
+move_to_slide(11);choose_textbox(0);delete_text();insert_text('More details');set_font_bold();
+
+move_to_slide(5);choose_textbox(0);set_font_underline();set_font_size(10);
+move_to_slide(5);choose_textbox(0);set_font_bold();set_font_size(12);
+move_to_slide(8);choose_textbox(0);delete_text();insert_text('Company for Human Future');move_to_slide(16);choose_textbox(0);delete_text();insert_text('Company Profit');
+move_to_slide(9);choose_textbox(0);delete_text();insert_text('History of Our Company');move_to_slide(10);choose_textbox(0);delete_text();insert_text('History of Our Company');
+
+move_to_slide(0);insert_note('May have a privacy concern');move_to_slide(3);insert_note('May have a privacy concern');move_to_slide(6);insert_note('May have a privacy concern');move_to_slide(7);insert_note('May have a privacy concern');move_to_slide(8);insert_note('May have a privacy concern');
+move_to_slide(2);choose_textbox(0);set_font_color('black');set_font_underline();move_to_slide(1);choose_textbox(0);set_font_color('black');set_font_underline();move_to_slide(4);choose_textbox(0);set_font_color('black');set_font_underline();move_to_slide(6);choose_textbox(0);set_font_color('black');set_font_underline();move_to_slide(7);choose_textbox(0);set_font_color('black');set_font_underline();
+move_to_slide(8);choose_textbox(0);delete_text();insert_text('Members and Friends');
+
+move_to_slide(2);choose_textbox(0);delete_text();insert_text('10 Important Tips for Your Early Career');set_font_underline();set_font_size(15);
+move_to_slide(12);insert_note('This is a table that record the average income every year for a bachelor.');
+move_to_slide(2);set_background_color('white');move_to_slide(4);set_background_color('white');move_to_slide(6);set_background_color('white');move_to_slide(13);set_background_color('white');
+
+move_to_slide(2);choose_textbox(0);delete_text();insert_text('Sea Sports');set_font_underline();move_to_slide(7);choose_textbox(0);delete_text();insert_text('Four Important Steps for Playing Skateboard');
+move_to_slide(10);choose_textbox(0);delete_text();insert_text('Free Course for Your Child');
+move_to_slide(10);choose_textbox(0);delete_text();insert_text('Free Courses');
+move_to_slide(23);choose_textbox(0);set_font_size(10);set_font_bold();
+
+move_to_slide(2);choose_textbox(0);delete_text();insert_text('Important Factors for Designing');move_to_slide(1);insert_note('Lily');
+move_to_slide(3);choose_picture(0);set_height(10);choose_textbox(0);delete_text();insert_text('Relevant Information from the Internet');
+move_to_slide(13);choose_textbox(0);delete_text();insert_text('New tendency from 2022 to 2023');
+
+move_to_slide(2);choose_textbox(0);delete_text();insert_text('Music Instrument');set_font_size(12);
+move_to_slide(5);insert_note('We are hiring!');
+move_to_slide(2);choose_textbox(0);set_font_color('purple');set_font_underline();move_to_slide(5);choose_textbox(0);set_font_color('purple');set_font_underline();move_to_slide(6);choose_textbox(0);set_font_color('purple');set_font_underline();move_to_slide(18);choose_textbox(0);set_font_color('purple');set_font_underline();move_to_slide(19);choose_textbox(0);set_font_color('purple');set_font_underline();
+
+move_to_slide(1);choose_picture(0);set_height(5);choose_picture(1);set_height(5);choose_picture(2);set_height(5);choose_textbox(0);delete_text();insert_text('The Art of Young');set_font_underline();
+move_to_slide(4);choose_textbox(0);delete_text();insert_text('The Playboys');set_font_bold();
+move_to_slide(6);choose_picture(0);rotate_element(45);choose_picture(1);rotate_element(45);choose_textbox(0);delete_text();insert_text('Asian Fashion');text_align_center();
+
+move_to_slide(6);choose_textbox(0);delete_text();insert_text('Our users in the world');set_font_bold();move_to_slide(9);choose_textbox(0);delete_text();insert_text('Our Company Profit');
+move_to_slide(5);choose_textbox(0);insert_note('I need to update the datapoints in the picture');
+move_to_slide(0);set_background_color('blue');move_to_slide(1);set_background_color('blue');move_to_slide(2);set_background_color('blue');move_to_slide(3);set_background_color('blue');move_to_slide(4);set_background_color('blue');move_to_slide(23);set_background_color('red');
+
+move_to_slide(2);choose_textbox(0);delete_text();insert_text('Buy and Sell BLOCKCHAIN in Three Steps');set_font_underline();choose_picture(0);rotate_element(15);move_to_slide(3);choose_picture(0);rotate_element(30);move_to_slide(4);choose_picture(0);rotate_element(45);
+move_to_slide(5);choose_textbox(0);set_font_bold();set_font_underline();choose_textbox(1);set_font_bold();set_font_underline();move_to_slide(9);choose_textbox(0);delete_text();insert_text('Revenues and Expenses');
+move_to_slide(0);set_background_color('yellow');move_to_slide(2);set_background_color('yellow');move_to_slide(3);set_background_color('yellow');move_to_slide(6);set_background_color('yellow');
+
+move_to_slide(5);choose_textbox(0);delete_text();insert_text('Travel with Mom');set_font_underline();
+move_to_slide(9);set_background_color('red');choose_picture(0);set_height(14);choose_picture(1);set_height(14);choose_picture(2);set_height(14);choose_picture(3);set_height(14);choose_picture(4);set_height(14);choose_picture(5);set_height(14);
+move_to_slide(10);choose_textbox(0);delete_text();insert_text('Play Game with Mom');
+
+move_to_slide(4);set_background_color('yellow');move_to_slide(5);set_background_color('yellow');move_to_slide(1);choose_textbox(0);delete_text();insert_text("Let's start");
+choose_textbox(1);delete_text();choose_textbox(2);delete_text();choose_textbox(3);delete_text();choose_textbox(4);delete_text();choose_textbox(5);delete_text();choose_textbox(6);delete_text();
+move_to_slide(8);set_background_color('white');choose_textbox(0);set_font_underline();move_to_slide(18);set_background_color('white');choose_textbox(0);set_font_underline();
+
+move_to_slide(3);choose_picture(0);set_width(12);insert_note('Hello Kids!');
+move_to_slide(10);choose_picture(0);align_slide_left();rotate_element(15);
+move_to_slide(3);choose_textbox(0);set_font_color('blue');move_to_slide(8);choose_textbox(0);set_font_color('blue');move_to_slide(10);choose_textbox(0);set_font_color('blue');move_to_slide(21);choose_textbox(0);set_font_color('blue');
+
+move_to_slide(0);choose_textbox(0);delete_text();insert_text('The Art of Flower Arrangement');set_font_underline();move_to_slide(1);choose_textbox(0);delete_text();insert_text('A Poem of Flower');set_font_underline();move_to_slide(2);choose_textbox(0);delete_text();insert_text('Three Important Steps for Flower Arrangement');set_font_underline();
+move_to_slide(7);choose_textbox(0);delete_text();insert_text('Not Just Crops');choose_picture(0);set_height(10);
+move_to_slide(14);choose_textbox(0);align_slide_top();choose_picture(0);rotate_element(12);choose_picture(1);rotate_element(12);choose_picture(2);rotate_element(12);move_to_slide(24);choose_textbox(0);align_slide_top();
+
+move_to_slide(13);choose_textbox(0);delete_text();insert_text('Which animal has the longest life?');set_font_color('yellow');
+move_to_slide(1);choose_textbox(0);delete_text();insert_text('Which would you see');set_font_size(8);choose_textbox(1);set_font_size(8);choose_textbox(2);set_font_size(8);choose_textbox(3);set_font_size(8);choose_textbox(4);set_font_size(8);choose_textbox(5);set_font_size(8);choose_textbox(6);set_font_size(8);
+move_to_slide(21);choose_textbox(1);delete_text();choose_textbox(2);delete_text();choose_textbox(3);delete_text();choose_textbox(4);delete_text();choose_textbox(5);delete_text();
+
+move_to_slide(5);choose_textbox(0);delete_text();insert_text('Global Warming');set_font_underline();move_to_slide(3);choose_textbox(0);text_align_left();choose_textbox(1);text_align_left();choose_textbox(2);text_align_left();
+move_to_slide(14);choose_textbox(0);delete_text();insert_text('Current Team Members');
+move_to_slide(2);set_background_color('blue');move_to_slide(5);set_background_color('blue');
+
+move_to_slide(7);set_background_color('yellow');move_to_slide(8);set_background_color('yellow');move_to_slide(15);choose_textbox(0);delete_text();insert_text('Which movie do you recall when you see the following pictures?');set_font_bold();
+move_to_slide(1);choose_textbox(0);delete_text();insert_text('Welcome to Our Movie Festival!?');
+move_to_slide(4);choose_textbox(1);delete_text();choose_textbox(2);delete_text();choose_textbox(3);delete_text();choose_textbox(4);delete_text();choose_textbox(5);delete_text();choose_textbox(6);delete_text();choose_textbox(7);delete_text();choose_textbox(8);delete_text();choose_textbox(9);delete_text();
+
+move_to_slide(5);choose_textbox(0);delete_text();insert_text('Three keys for identifying if falling in love?');set_font_underline();move_to_slide(14);choose_textbox(0);delete_text();insert_text('What cam you and your lovely do together');set_font_underline();
+move_to_slide(18);insert_note('Our address is xxx');
+move_to_slide(2);set_background_color('blue');move_to_slide(3);set_background_color('blue');move_to_slide(4);set_background_color('blue');move_to_slide(5);set_background_color('blue');move_to_slide(6);set_background_color('blue');move_to_slide(7);set_background_color('blue');move_to_slide(13);set_background_color('blue');move_to_slide(14);set_background_color('blue');
+
+move_to_slide(3);choose_textbox(0);rotate_element(90);move_to_slide(8);choose_textbox(0);delete_text();insert_text('Chips');
+move_to_slide(14);choose_table();choose_table_cell(1,0);delete_text();insert_text('Income Statement');choose_table_cell(1,1);delete_text();insert_text('1450');choose_table_cell(2,1);delete_text();insert_text('1567');choose_table_cell(3,1);delete_text();insert_text('1456');choose_table_cell(4,1);delete_text();insert_text('8900');
+choose_table_cell(0,2);delete_text();insert_text('Cost');choose_table_cell(0,3);delete_text();insert_text('Revenue');
+
+move_to_slide(1);choose_textbox(0);set_font_color('black');set_font_bold();move_to_slide(2);choose_textbox(0);set_font_color('black');set_font_bold();move_to_slide(3);choose_textbox(0);set_font_color('black');set_font_bold();move_to_slide(22);choose_textbox(1);delete_text();choose_textbox(2);delete_text();choose_textbox(3);delete_text();choose_textbox(4);delete_text();choose_textbox(5);delete_text();
+move_to_slide(19);choose_textbox(1);delete_text();insert_text('Our company built in 2012');
+move_to_slide(11);choose_picture(0);set_height(10);
+
+move_to_slide(18);choose_textbox(0);delete_text();insert_text('Colorful World');set_font_underline();set_font_size(19);move_to_slide(23);choose_textbox(0);delete_text();insert_text('Welcome to Our Group');set_font_underline();
+move_to_slide(12);choose_table();choose_table_cell(1,3);delete_text();insert_text('17');choose_table_cell(3,1);delete_text();insert_text('0');choose_table_cell(3,2);delete_text();insert_text('0');choose_table_cell(3,3);delete_text();insert_text('0');
+move_to_slide(11);choose_textbox(0);delete_text();insert_text('Big Picture of Our Company');
+
+move_to_slide(5);choose_textbox(0);align_slide_top();move_to_slide(9);choose_textbox(0);align_slide_top();move_to_slide(10);choose_textbox(0);align_slide_top();move_to_slide(11);choose_textbox(0);align_slide_top();move_to_slide(15);choose_textbox(0);align_slide_top();
+move_to_slide(14);choose_textbox(0);delete_text();insert_text('Top Experts in Our Group');
+move_to_slide(11);choose_textbox(0);delete_text();insert_text('Round 2');
+
+move_to_slide(4);choose_textbox(0);delete_text();insert_text('Welcome to The Era of AI');set_font_bold();
+move_to_slide(11);choose_textbox(0);delete_text();insert_text('Our Young Scientist');move_to_slide(16);choose_textbox(0);delete_text();insert_text('Our Newest Product');
+move_to_slide(17);choose_textbox(0);set_font_underline();
+
+move_to_slide(0);choose_textbox(2);delete_text();insert_text('7.18');choose_picture(0);align_slide_top();
+move_to_slide(6);choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('green');choose_textbox(2);set_font_color('red');choose_textbox(3);set_font_color('purple');choose_textbox(4);set_font_color('blue');
+move_to_slide(9);choose_textbox(0);set_font_bold();choose_textbox(1);set_font_bold();move_to_slide(7);set_background_color('yellow');move_to_slide(8);set_background_color('yellow');move_to_slide(0);choose_picture(0);set_height(3);
+
+insert_textbox();insert_text('Hi');text_align_center();
+move_to_slide(7);insert_textbox();insert_text('Hi');set_font_color('green');move_to_slide(8);insert_textbox();insert_text('Hi');set_font_color('yellow');move_to_slide(9);insert_textbox();insert_text('Hi');set_font_color('red');move_to_slide(10);insert_textbox();insert_text('Hi');set_font_color('blue');
+move_to_slide(6);choose_picture(0);rotate_element(15);move_to_slide(7);choose_picture(0);rotate_element(30);move_to_slide(8);choose_picture(0);rotate_element(45);move_to_slide(9);choose_picture(0);rotate_element(60);
+
+move_to_slide(3);set_background_color('yellow');move_to_slide(4);set_background_color('green');move_to_slide(5);set_background_color('red');move_to_slide(6);set_background_color('red');move_to_slide(7);set_background_color('yellow');
+move_to_slide(12);insert_note('here is a table');
+choose_table();choose_table_cell(1,0);delete_text();insert_text('Green');choose_table_cell(1,1);delete_text();insert_text('11');
+
+move_to_slide(7);choose_textbox(6);delete_text();insert_text('Cheap');choose_textbox(1);delete_text();insert_text('Quality');choose_textbox(3);delete_text();insert_text('Effective');move_to_slide(2);choose_textbox(0);text_align_right();
+move_to_slide(2);choose_picture(0);align_slide_right();move_to_slide(4);choose_textbox(0);set_font_size(3);choose_textbox(1);set_font_size(3);choose_textbox(2);set_font_size(3);choose_textbox(3);set_font_size(3);choose_textbox(4);set_font_size(3);choose_textbox(5);set_font_size(3);choose_textbox(6);set_font_size(3);
+move_to_slide(11);insert_note('there is a table to fill in in this slide.');
+
+move_to_slide(4);choose_textbox(1);delete_text();insert_text("I'm Justin, and I wish to share my ideas with you, wonderful people!");move_to_slide(6);choose_picture(0);align_slide_left();
+move_to_slide(9);choose_textbox(0);delete_text();insert_text('Introduction to Winter Sports');move_to_slide(10);choose_textbox(0);delete_text();insert_text('Introduction to Winter Sports');move_to_slide(7);choose_textbox(0);delete_text();insert_text('Introduction to Winter Sports');move_to_slide(10);choose_picture(0);set_height(7);
+move_to_slide(4);choose_picture(0);rotate_element(45);move_to_slide(5);choose_picture(0);rotate_element(45);move_to_slide(6);choose_picture(0);rotate_element(45);move_to_slide(7);choose_picture(0);rotate_element(45);
+
+move_to_slide(7);choose_textbox(1);delete_text();insert_text('Outside dept');
+move_to_slide(5);choose_picture(0);set_height(2);move_to_slide(6);choose_picture(0);set_height(3);move_to_slide(9);choose_picture(0);set_height(4);
+move_to_slide(5);set_background_color('yellow');move_to_slide(6);choose_picture(0);set_height(3);move_to_slide(4);set_background_color('red');
+move_to_slide(4);choose_textbox(0);set_font_size(4);choose_textbox(1);set_font_size(4);choose_textbox(2);set_font_size(4);choose_textbox(3);set_font_size(4);choose_textbox(4);set_font_size(4);choose_textbox(5);set_font_size(4);choose_textbox(6);set_font_size(4);choose_textbox(0);set_font_color('yellow');
+
+move_to_slide(6);choose_textbox(0);delete_text();insert_text('Apple');choose_textbox(1);set_font_color('yellow');
+move_to_slide(4);choose_textbox(1);set_font_bold();move_to_slide(5);choose_textbox(0);set_font_bold();move_to_slide(6);choose_picture(0);rotate_element(45);move_to_slide(7);choose_picture(0);rotate_element(45);
+move_to_slide(4);choose_textbox(0);set_font_bold();choose_textbox(1);set_font_bold();move_to_slide(5);choose_textbox(0);set_font_underline();choose_textbox(1);set_font_underline();choose_textbox(2);set_font_underline();
+
+move_to_slide(1);set_background_color('green');move_to_slide(3);set_background_color('green');move_to_slide(5);set_background_color('green');move_to_slide(0);set_background_color('blue');move_to_slide(2);set_background_color('blue');move_to_slide(4);set_background_color('blue');
+move_to_slide(2);choose_textbox(0);set_font_bold();move_to_slide(3);choose_textbox(0);set_font_underline();
+move_to_slide(6);choose_textbox(0);align_slide_left();
+move_to_slide(3);choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('yellow');move_to_slide(5);choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('yellow');
+
+move_to_slide(2);choose_textbox(1);delete_text();insert_text('Agenda 1');choose_textbox(2);delete_text();insert_text('Agenda 2');choose_textbox(3);delete_text();insert_text('Agenda 3');
+move_to_slide(11);choose_table();choose_table_cell(0,0);delete_text();insert_text("T1");choose_table_cell(0,1);delete_text();insert_text("T2");choose_table_cell(0,2);delete_text();insert_text("T3");choose_table_cell(0,3);delete_text();insert_text("T4");
+move_to_slide(6);set_background_color('yellow');move_to_slide(7);set_background_color('yellow');move_to_slide(5);set_background_color('yellow');move_to_slide(3);insert_note('ready');move_to_slide(4);insert_note('ready');
+
+choose_textbox(0);set_font_underline();
+move_to_slide(0);choose_textbox(0);set_font_color('yellow');move_to_slide(1);set_background_color('red');
+move_to_slide(4);choose_picture(0);align_slide_right();move_to_slide(7);choose_picture(0);align_slide_right();
+
+move_to_slide(0);set_background_color('red');move_to_slide(6);choose_picture(0);set_height(4);
+move_to_slide(6);choose_picture(0);align_slide_left();move_to_slide(7);choose_picture(0);align_slide_left();
+
+move_to_slide(6);choose_picture(0);align_slide_right();move_to_slide(7);choose_picture(0);align_slide_right();
+move_to_slide(4);choose_textbox(0);set_font_bold();move_to_slide(7);set_background_color('red');move_to_slide(5);choose_textbox(1);set_font_underline();
+move_to_slide(6);choose_textbox(1);delete_text();
+
+move_to_slide(7);choose_table();choose_table_cell(0,1);delete_text();insert_text('The Enigma of Shadows');choose_table_cell(1,1);delete_text();insert_text('Maya Sullivan');
+move_to_slide(4);choose_picture(0);rotate_element(45);move_to_slide(5);choose_picture(0);rotate_element(45);move_to_slide(2);choose_picture(0);rotate_element(90);
+move_to_slide(2);choose_textbox(0);set_font_color('blue');choose_textbox(1);set_font_color('blue');choose_textbox(2);set_font_color('blue');choose_textbox(3);set_font_color('blue');move_to_slide(3);set_background_color('yellow');
+
+move_to_slide(2);choose_textbox(0);set_font_color('green');choose_textbox(1);set_font_color('green');move_to_slide(3);choose_textbox(0);set_font_color('red');choose_textbox(1);set_font_color('red');
+move_to_slide(3);choose_textbox(0);text_align_right();move_to_slide(7);choose_textbox(0);text_align_left();move_to_slide(8);choose_textbox(0);text_align_center();
+move_to_slide(10);choose_textbox(0);delete_text();insert_text('Greener is better');
+move_to_slide(2);choose_textbox(0);set_height(3000);set_width(3500);choose_textbox(1);set_height(4000);set_width(4500);
+
+move_to_slide(0);choose_picture(0);align_slide_left();move_to_slide(1);choose_textbox(4);set_font_color('green');move_to_slide(3);choose_textbox(0);set_font_size(4);
+move_to_slide(9);choose_table();align_slide_left();
+move_to_slide(6);choose_textbox(0);set_font_bold();choose_textbox(1);set_font_bold();choose_textbox(2);set_font_bold();move_to_slide(0);choose_textbox(0);set_font_size(2);set_font_underline();
+
+move_to_slide(4);choose_textbox(0);align_slide_top();move_to_slide(6);choose_textbox(0);align_slide_top();move_to_slide(4);choose_textbox(0);set_font_color('yellow');
+move_to_slide(0);choose_picture(0);rotate_element(45);move_to_slide(2);choose_picture(0);rotate_element(60);move_to_slide(3);choose_picture(0);rotate_element(90);
+move_to_slide(8);choose_textbox(0);delete_text();insert_text('132,654,897');
+
+move_to_slide(0);choose_textbox(0);set_font_color('blue');
+move_to_slide(4);set_background_color('red');move_to_slide(5);set_background_color('red');move_to_slide(6);set_background_color('blue');move_to_slide(7);set_background_color('blue');move_to_slide(2);choose_picture(0);align_slide_right();
+move_to_slide(5);choose_textbox(6);delete_text();insert_text('TODO');move_to_slide(6);choose_textbox(0);delete_text();insert_text('TODO');move_to_slide(7);choose_textbox(0);delete_text();insert_text('TODO');
+move_to_slide(0);choose_picture(0);set_height(2);move_to_slide(2);choose_picture(0);set_height(2);move_to_slide(3);choose_picture(0);set_height(2);move_to_slide(1);set_background_color('yellow');move_to_slide(2);set_background_color('yellow');
+move_to_slide(6);choose_textbox(0);set_font_color('red');move_to_slide(2);set_background_color('blue');move_to_slide(3);set_background_color('blue');
+
+move_to_slide(5);choose_picture(0);align_slide_right();
+move_to_slide(9);choose_textbox(0);text_align_right();choose_textbox(1);text_align_right();choose_textbox(2);text_align_right();choose_textbox(3);text_align_right();
+move_to_slide(6);choose_picture(0);set_height(2);move_to_slide(11);choose_textbox(0);set_font_size(10);choose_textbox(1);set_font_size(10);choose_textbox(2);set_font_size(10);
+move_to_slide(11);choose_textbox(2);delete_text();insert_text('Google');
+
+move_to_slide(3);insert_note('There is a table');move_to_slide(6);insert_note('There is a table');
+move_to_slide(1);choose_picture(0);align_slide_top();move_to_slide(0);choose_textbox(0);set_font_underline();choose_textbox(1);set_font_underline();move_to_slide(1);choose_textbox(0);set_font_underline();choose_textbox(1);set_font_underline();
+move_to_slide(3);choose_textbox(1);delete_text();insert_text('K1');choose_textbox(2);delete_text();insert_text('K2');choose_textbox(3);delete_text();insert_text('K3');choose_textbox(4);delete_text();insert_text('K4');choose_textbox(5);delete_text();insert_text('K5');choose_textbox(6);delete_text();insert_text('K6');
+move_to_slide(5);choose_textbox(2);delete_text();insert_text('13 million');move_to_slide(1);choose_picture(0);set_height(3);
+
+move_to_slide(3);choose_textbox(2);delete_text();insert_text('00');insert_note('its the third slide');
+move_to_slide(0);choose_textbox(0);align_slide_bottom();choose_textbox(1);align_slide_bottom();move_to_slide(1);choose_textbox(0);align_slide_bottom();choose_textbox(1);align_slide_bottom();choose_textbox(2);align_slide_bottom();choose_textbox(3);align_slide_bottom();
+move_to_slide(0);choose_textbox(0);set_font_color('yellow');choose_textbox(2);set_font_color('red');set_background_color('green');
+
+move_to_slide(7);choose_picture(0);align_slide_top();move_to_slide(8);choose_picture(0);align_slide_bottom();
+move_to_slide(3);choose_textbox(0);set_font_size(4);choose_textbox(2);set_font_size(5);
+move_to_slide(0);choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('red');set_background_color('green');
+
+move_to_slide(4);choose_textbox(0);set_font_color('green');choose_textbox(1);set_font_color('green');move_to_slide(3);set_background_color('yellow');
+move_to_slide(6);choose_textbox(0);delete_text();insert_text('BOOKS');
+move_to_slide(2);choose_textbox(0);set_font_size(6);choose_textbox(1);set_font_size(6);move_to_slide(4);choose_textbox(0);set_font_size(7);choose_textbox(1);set_font_size(7);move_to_slide(4);choose_picture(0);align_slide_bottom();
+
+move_to_slide(0);set_background_color('yellow');choose_textbox(0);set_font_color('red');choose_textbox(1);set_font_color('red');
+move_to_slide(3);choose_picture(0);align_slide_left();choose_textbox(0);align_slide_left();choose_textbox(1);align_slide_left();choose_textbox(2);align_slide_left();choose_textbox(3);align_slide_left();choose_textbox(4);align_slide_left();choose_textbox(5);align_slide_left();choose_textbox(6);align_slide_left();choose_textbox(7);align_slide_left();choose_textbox(8);align_slide_left();choose_textbox(9);align_slide_left();choose_textbox(10);align_slide_left();choose_textbox(11);align_slide_left();choose_textbox(12);align_slide_left();
+move_to_slide(2);insert_triangle();move_to_slide(3);insert_circle();
+
+move_to_slide(3);set_background_color('blue');move_to_slide(4);set_background_color('yellow');move_to_slide(5);set_background_color('red');
+move_to_slide(7);choose_table();choose_table_cell(0,0);delete_text();insert_text('g1');choose_table_cell(1,0);delete_text();insert_text('g2');choose_table_cell(0,1);delete_text();insert_text('g3');choose_table_cell(1,1);delete_text();insert_text('g4');
+move_to_slide(0);insert_note('0');move_to_slide(1);insert_note('1');move_to_slide(2);insert_note('2');move_to_slide(3);insert_note('3');move_to_slide(4);insert_note('4');move_to_slide(5);insert_note('5');
+
+move_to_slide(10);choose_textbox(0);set_font_size(2);choose_textbox(1);set_font_size(2);choose_textbox(2);set_font_size(2);move_to_slide(11);choose_textbox(0);set_font_color('red');choose_textbox(1);set_font_color('red');choose_textbox(2);set_font_color('red');
+move_to_slide(9);choose_picture(0);align_slide_left();
+move_to_slide(5);set_background_color('green');choose_textbox(0);set_font_color('yellow');choose_textbox(1);set_font_color('yellow');choose_textbox(2);set_font_color('yellow');
