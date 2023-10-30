@@ -9,7 +9,7 @@ This repository contains information about PPTC benchmark, data, code, and the P
 # Requirements
 Please install these packages first:
 ```
-pip install -r PPT_code/requirements.txt
+pip install -r PPTC/requirements.txt
 ```
 
 # Registering LLM systems
@@ -44,13 +44,13 @@ You can adjust the 'port id' of openai_api_server (21007), model_worker (21008),
 Now we generate the label PPT files by executing the feasible API sequences and store them into your system. We don't upload them into this epository as they are too large.
 You need to execute these codes:
    ```
-   python3 PPT_code/main.py --prepare --dataset long
-   python3 PPT_code/main.py --prepare --dataset short  
+   python3 PPTC/main.py --prepare --dataset long
+   python3 PPTC/main.py --prepare --dataset short  
    ```
 # Testing your LLM 
 To test your LLM in our benchmark, you can execute this code:
    ```
-   bash PPT_code/basic_run/run.sh model_name port_id evaluation_name dataset_name 
+   bash PPTC/basic_run/run.sh model_name port_id evaluation_name dataset_name 
    ```
 ```model_name```: For closed-source LLMs, GPT-4's name is 'gpt4', ChatGPT's name is 'turbo', and Davince's name is 'text3'. 
 For open-source LLMs, your LLM's name must be consistency with the name you used in step 'Launch the model worker' (e.g., 'vicuna-13b-v1.5-16k').
@@ -67,7 +67,7 @@ Setting it as 'long' if you want to assess your LLM in the editing PPT template 
 # Evaluating the task completion performance of your LLM
 After the test inference process, you can run this code to do evaluation:
 ```
-python PPT_code/main.py --eval --dataset=dataset_name --evaluation_name --model=model_name
+python PPTC/main.py --eval --dataset=dataset_name --evaluation_name --model=model_name
 ```
 This process will generate the prediction file by executing the LLM-generated API sequence and assess the prediction file in the PPTX-Match system one by one. Finally, it reports the results of average api cost, average token cost, and average accuracy ('string acc').
 
