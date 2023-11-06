@@ -11,7 +11,7 @@ Currently you are at page {1}
 """
 instruction_following_prompt = """Please finish user instruction with the functions you have.
 Don't generate instructions beyond what the user has instructed. 
-Don't guess what the user may instruct in the next step and generete API for them.
+Don't guess what the user may instruct in the next step and generate API for them.
 Don't use python loop to call API like 'for i in range(n), ...'. You can only call API once in one line.
 Don't use the API that is not in the API list.
 Expected input parameters of API () should be numerical values, rather than using 'slide_id' or any other non-numeric input. 
@@ -180,7 +180,7 @@ Answer:"""
 # </query>
 # Here is some hint:
 # Don't generate instructions beyond what the user has instructed. 
-# Don't guess what the user may instruct in the next step and generete API for them.
+# Don't guess what the user may instruct in the next step and generate API for them.
 # Here is the real user query, you only need to output the answer without generating new queries or explanations.
 # query: {}
 # decomposed query:
@@ -315,7 +315,7 @@ Given you the user instruction:'{0}', you can complete it based on the following
 Currently you are at page {1}.
 Please finish user instruction with the functions you have.
 Don't generate instructions beyond what the user has instructed. 
-Don't guess what the user may instruct in the next step and generete API for them.
+Don't guess what the user may instruct in the next step and generate API for them.
 Don't use python loop to call API. You can only call API once in one line.
 If the user does not specify the page to be modified, you can directly start using the APIs without having to navigate to other pages.
 
