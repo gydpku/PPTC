@@ -167,7 +167,7 @@ if __name__ == "__main__":
                         help="short/long")
     parser.add_argument("--model_id", default="None", type=str,
                         help="short/long")
-    parser.add_argument("--user_path", default='./PPT_code/', type=str,
+    parser.add_argument("--user_path", default='./PPTC/', type=str,
                         help="the user storage file path ")
     parser.add_argument("--save_path", default="test_pptx_data", type=str,
                         help="the path to save the intermediate ppts.")

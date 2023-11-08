@@ -38,7 +38,7 @@ SHAPE_TOP = CENTER_TOP - SHAPE_HEIGHT / 2
 PIC_LEFT = CONTENT_LEFT
 PIC_TOP = CONTENT_TOP 
 
-PIC_PATH = "./PPT_code/"+"test/pics"
+PIC_PATH = "./PPTC/"+"test/pics"
 
 current_shape = None
 current_slide = None
