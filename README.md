@@ -77,4 +77,14 @@ This process will generate the prediction file by executing the LLM-generated AP
 For these open-source LLMs, we use their chat/instruct version with 13 billion parameters.
 <img width="635" alt="截屏2023-10-25 23 18 59" src="https://github.com/gydpku/PPTC/assets/58905134/c5010986-22ef-4f86-9f42-4eeaabe5d488">
 
+# Citation
+If you use the benchmark in your publication, please cite it.
+```
+@article{guo2023pptc,
+  title={PPTC Benchmark: Evaluating Large Language Models for PowerPoint Task Completion},
+  author={Guo, Yiduo and Zhang, Zekai and Liang, Yaobo and Zhao, Dongyan and Nan, Duan},
+  journal={arXiv preprint arXiv:2311.01767},
+  year={2023}
+}
+```
 
