@@ -11,6 +11,7 @@ from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION
 from pptx.enum.text import MSO_AUTO_SIZE
 from pptx.enum.text import PP_ALIGN
 from src import api_doc
+from src import ppt_reader
 
 SLIDE_HEIGHT = 6858000
 SLIDE_WIDTH = 9144000
@@ -38,7 +39,7 @@ SHAPE_TOP = CENTER_TOP - SHAPE_HEIGHT / 2
 PIC_LEFT = CONTENT_LEFT
 PIC_TOP = CONTENT_TOP 
 
-PIC_PATH = "./PPTC/"+"test/pics"
+PIC_PATH = "test/pics"
 
 current_shape = None
 current_slide = None
@@ -66,16 +67,71 @@ def check_api_in_list(line, api_list):
             return 1
     return 0
 
+def get_fill_color(shape):
+    if shape.fill.type == 1:  # Solid fill
+        color = shape.fill.fore_color
+        if hasattr(color, "rgb"):
+            return color.rgb
+    return None
+
+text_info_dict = {}
+
+def get_text_info(shape):
+    global text_info_dict
+    try:
+        font = shape.text_frame.paragraphs[0].runs[0].font
+    except:
+        font = shape.text_frame.paragraphs[0].font
+    bold = font.bold
+    italic = font.italic
+    underline = font.underline
+    size = font.size if font.size is not None else shape.text_frame.paragraphs[0].font.size
+    try:
+        color = font.color.rgb 
+    except:
+        color = None
+    fill = get_fill_color(shape)
+    font_name = font.name
+    line_spacing = shape.text_frame.paragraphs[0].line_spacing
+    alignment = shape.text_frame.paragraphs[0].alignment
+
+    text_info_dict = {
+        "font": font,
+        "bold": bold,
+        "italic": italic,
+        "underline": underline,
+        "size": size,
+        "color": color,
+        "fill": fill,
+        "font_name": font_name,
+        "line_spacing": line_spacing,
+        "alignment": alignment
+    }
+
+def set_text_info(shape):
+    global text_info_dict
+    try:
+        for paragraph in shape.text_frame.paragraphs:
+            for run in paragraph.runs:
+                run.font.size = text_info_dict["size"]
+                run.font.color.rgb = text_info_dict["color"]
+                run.font.bold = text_info_dict["bold"]
+                run.font.italic = text_info_dict["italic"]
+                run.font.underline = text_info_dict["underline"]
+                run.font.name = text_info_dict["font_name"]
+        paragraph.line_spacing = text_info_dict["line_spacing"]
+        paragraph.alignment = text_info_dict["alignment"]
+    except Exception as e:
+        print(e)
+
 # apis
 def API_executor(lines, test=False,args=None):
-    # print(f"EXECUTING API:{lines}")
     error_info = ""
     for line in lines:
         if not test:
             if check_api_in_list(line, ["set_left","set_top","set_right","set_bottom"]):
                 continue
             if args.api_lack:
-                print('Lacking API Exec!')
                 if not check_api_in_list(line, api_doc.original_apis):
                     continue
         try:
@@ -98,9 +154,8 @@ def API_executor(lines, test=False,args=None):
             else:
                 eval(line) 
         except Exception as e:
-            print(line)
-            print(f"ERROR: {e}")
-            error_info += f"ERROR: {e}\n"
+            print(f"ERROR: {line}")
+            error_info += f"ERROR: {line}\n"
     return error_info
     
 
@@ -117,6 +172,7 @@ def set_ppt(ppt_path):
     textbox = None
     shape = {}
     slides = prs.slides
+    ppt_reader.set_slides(slides)
 
 def set_current_slide(idx):
     global current_slide, slides
@@ -128,6 +184,35 @@ def set_current_slide(idx):
 def get_ppt():
     global prs
     return prs
+
+def save_state():
+    global current_slide, current_shape, table, picture, chart, smartart, textbox, shape, prs, slides
+    state = {
+        "current_slide": current_slide,
+        "current_shape": current_shape,
+        "table": table,
+        "picture": picture,
+        "chart": chart,
+        "smartart": smartart,
+        "textbox": textbox,
+        "shape": shape,
+        "prs": prs,
+        "slides": slides
+    }
+    return state
+
+def load_state(state):
+    global current_slide, current_shape, table, picture, chart, smartart, textbox, shape, prs, slides
+    current_slide = state["current_slide"]
+    current_shape = state["current_shape"]
+    table = state["table"]
+    picture = state["picture"]
+    chart = state["chart"]
+    smartart = state["smartart"]
+    textbox = state["textbox"]
+    shape = state["shape"]
+    prs = state["prs"]
+    slides = state["slides"]
 
 def save_ppt(ppt_path):
     global slides, prs
@@ -185,10 +270,12 @@ def set_background_color(color):
 def choose_title():
     global current_slide, current_shape
     current_shape = current_slide.shapes.title
+    get_text_info(current_shape)
 
 def choose_content():
     global current_slide, current_shape
     current_shape = current_slide.placeholders[1]
+    get_text_info(current_shape)
 
 def choose_textbox(idx=0):
     global current_slide, current_shape, textbox
@@ -203,6 +290,7 @@ def choose_textbox(idx=0):
                     break
                 else:
                     cur_idx += 1
+    get_text_info(current_shape)
 
 def choose_picture(idx=0):
     global current_slide, current_shape, picture
@@ -261,7 +349,7 @@ def insert_text(text):
             current_shape.text += text
         except:
             pass
-    
+    set_text_info(current_shape)
     return
 
 def insert_bullet_point(text):
@@ -274,6 +362,8 @@ def insert_bullet_point(text):
     except:
         pass
 
+    set_text_info(current_shape)
+
 def insert_note(note):
     global current_slide, current_shape
     current_slide.notes_slide.notes_text_frame.text += note
@@ -282,6 +372,7 @@ def insert_textbox():
     global current_slide, current_shape, textbox
     textbox = current_slide.shapes.add_textbox(CONTENT_LEFT, CONTENT_TOP, CONTENT_WIDTH, TABLE_HEIGHT)
     current_shape = textbox
+    set_text_info(current_shape)
 
 def delete_text():
     global current_slide, current_shape
