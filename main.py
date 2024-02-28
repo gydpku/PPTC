@@ -87,6 +87,7 @@ def test(ppt_assistant, args):
                 utils.write_lines([prompt],args.user_path+f'PPT_Prompt_File/{set_name}/{args.exp_name}_{sess_id}_{turn_id}.txt')
                 #import pdb
                 #pdb.set_trace()
+                utils.makedir(f"PPT_test_output/{set_name}")
                 with jsonlines.open(args.user_path+f"PPT_test_output/{set_name}/{args.exp_name}_session_{sess_id}.json", mode='a') as writer:
                     data={'Turn':turn_id,'User instruction':instruction,'Feasible API sequence':label_api,'Reply':reply,'Pred API sequence':apis,'Pred File':f'PPT_Pred_File/{set_name}/{args.exp_name}_{sess_id}_{turn_id}.pptx','Label File':label_file,'Prompt File':f'PPT_Prompt_File/{set_name}/{args.exp_name}_{sess_id}_{turn_id}.txt'}
                     writer.write(data)
