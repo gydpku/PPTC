@@ -67,7 +67,7 @@ def check_api_in_list(line, api_list):
             return 1
     return 0
 
-def get_fill_color(shape):
+def get_fill_color(shape):  
     if shape.fill.type == 1:  # Solid fill
         color = shape.fill.fore_color
         if hasattr(color, "rgb"):
@@ -114,7 +114,8 @@ def set_text_info(shape):
         for paragraph in shape.text_frame.paragraphs:
             for run in paragraph.runs:
                 run.font.size = text_info_dict["size"]
-                run.font.color.rgb = text_info_dict["color"]
+                if text_info_dict["color"]:
+                    run.font.color.rgb = text_info_dict["color"]
                 run.font.bold = text_info_dict["bold"]
                 run.font.italic = text_info_dict["italic"]
                 run.font.underline = text_info_dict["underline"]
